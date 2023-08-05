@@ -35,6 +35,13 @@ public class Main {
         short num4 = -159;
         int num5 = 27897;
         byte num6 = 67;
+        System.out.println(num);
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(num3);
+        System.out.println(num4);
+        System.out.println(num5);
+        System.out.println(num6);
     }
     public static void task3() {
         System.out.println("Задача 3");
@@ -75,14 +82,14 @@ public class Main {
         byte banana = 5;
         byte banana1Weight = 100;
         int banana5Weight = banana * banana1Weight;
-        short milkMl = 200;
+        // milkMl = 200;
         short weightMilk100Ml = 105;
         int weightMilk200Ml = weightMilk100Ml * 2;
-        int iceСreamWeight = 200;
+        int plombirWeight = 200;
         int egg = 4;
         int eggWeight1 = 70;
         int eggWeight5 = eggWeight1 * egg;
-        float totalWeightGramm = banana5Weight + weightMilk200Ml + iceСreamWeight + eggWeight5;
+        float totalWeightGramm = banana5Weight + weightMilk200Ml + plombirWeight + eggWeight5;
         System.out.println("Общий вес в граммах - равен " + totalWeightGramm);
         float weightKilo = totalWeightGramm / 1000;
         System.out.println("Общий вес в килограммах - равен " + weightKilo);
